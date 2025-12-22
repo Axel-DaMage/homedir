@@ -2916,7 +2916,8 @@
       position: absolute;
       top: 100%;
       right: 0;
-      background: rgba(0, 0, 0, 0.9);
+      background: rgba(0, 0, 0, 0.45);
+      backdrop-filter: blur(10px);
       border: 1px solid var(--accent-color);
       border-radius: 4px;
       padding: 0.5rem;
